@@ -1,3 +1,59 @@
 /* PART B styles. Owner: [first name]
    Only style the things inside Part B of index.html.
    Put your phone-size rules in a media query at the bottom of this file. */
+body {
+ background-color: #f3f7f2;
+}
+
+h2 {
+  color: #1f3d2b;
+  font-family: "Space Grotesk", sans-serif;
+}
+h3 {
+  color: #1f3d2b;
+  font-family: "Space Grotesk", sans-serif;
+}
+ul {
+  border: 5px solid #1f3d2b;
+  border-radius: 6px;
+  border-width: 3px;
+  background-color: #ffffff;
+}
+.genre {
+  color: #1f3d2b;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+  background-color: #e3f4d7;
+}
+
+.description {
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  color: #1f3d2b;
+} 
+.play-now {
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  color: #ff6b9a;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+ul img {
+  width: 100px;
+  height: auto;
+  border-radius: 6px;
+}
+
+@media (max-width: 760px) {
+  ul img {
+    max-width: 100px;
+    height: auto;
+  }
+}
