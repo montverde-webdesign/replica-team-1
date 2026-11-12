@@ -1,3 +1,161 @@
 /* PART C styles. Owner: [first name]
-   Only style the things inside Part C of index.html.
-   Put your phone-size rules in a media query at the bottom of this file. */
+   NOTE: the first line(s) of this CSS were cut off in the PDF; selector assumed to be h2. */
+h2 {
+color: #203b32;
+  text-align: center;
+  background-color: #e3f4d7;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+
+h2 {
+  padding-bottom: 5rem;
+}
+
+
+
+h3 {
+  color: #1f3d2b;
+}
+
+
+h4 {
+  color: #1f3d2b;
+}
+
+
+h5 {
+  color: #1f3d2b;
+}
+
+
+p {
+  color: #496b58;
+  line-height: 1.5;
+}
+
+
+img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 25rem;
+  list-style: none;
+  margin-top: 0;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  background-color: #e3f4d7;
+}
+
+
+.team-list li {
+  text-align: center;
+}
+
+
+.team-list img {
+  width: 180px;
+  height: 180px;
+}
+
+
+.team-list h3,
+.team-list h4,
+.team-list h5 {
+  font-size: 1.5rem;
+}
+
+
+.team-list p {
+  font-size: 1.15rem;
+}
+
+
+.site-footer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+    padding: 2rem;
+    background-color: #1f3d2b;
+}
+
+
+.footer-column h4 {
+  margin-top: 0;
+  color: #9be15d;
+}
+
+
+.footer-column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer-column li + li {
+  margin-top: 0.5rem;
+}
+
+
+.footer-bottom {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding-top: 7rem;
+}
+
+
+@media (max-width: 700px) {
+  .site-footer {
+    grid-template-columns: 1fr;
+  }
+
+
+    .footer-bottom {
+      grid-column: auto;
+    }
+}
+.site-footer p,
+.site-footer li,
+.site-footer a {
+  color: #ffffff;
+}
+
+
+.team-list img {
+  border: 5px solid white;
+}
+.team-list {
+  /* existing styles */
+  margin-bottom: 0;
+}
+
+
+.footer-bottom {
+  grid-column: 1 / -1;
+  text-align: center;
+}

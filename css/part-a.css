@@ -1,3 +1,47 @@
 /* PART A styles. Owner: [first name]
    Only style the things inside Part A of index.html.
    Put your phone-size rules in a media query at the bottom of this file. */
+/* Add your Part A styles below this line. */
+img {
+    font-family: "Space Grotesk", sans-serif;
+}.site-header h3 {
+  color: white;
+}
+
+      .site-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #1f3d2b;
+    padding: 1rem 2rem;
+}
+
+}
+h3 {
+    font-family: "Space Grotesk", sans-serif;
+    color: #feffff;
+}
+h4 {
+    font-family: "Space Grotesk", sans-serif;
+    color: #1f3d2b; }
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    color: #1f3d2b;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    color: #1f3d2b
+
+}
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-copy {
+  flex: 1;
+}
+
+.hero-image {
+width: 45%;
